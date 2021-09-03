@@ -1,9 +1,9 @@
-function solution(input){
-    let length = input[0].length + input[1].length + input[2].length;
+function solution(input1, input2, input3){
+    let length = input1.length + input2.length + input3.length;
     let average = Math.floor(length/3);
 
     console.log(length);
     console.log(average);
 }
 
-solution(['chocolate', 'ice cream', 'cake'])
+solution('chocolate', 'ice cream', 'cake')
