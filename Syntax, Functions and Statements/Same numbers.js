@@ -1,7 +1,6 @@
 function solution(param) {
     let sameDigitsChecker = true;
     let sum = 0;
-    // var num;
     if(typeof(param) != `string`){
         num = param.toString();
     }
