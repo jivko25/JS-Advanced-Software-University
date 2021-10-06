@@ -12,13 +12,14 @@ function solution(arr) {
                 break;
         }
     }
-    print(solution)
-}
-
-function print(arr) {
-    arr.forEach(element => {
+    if(solution.length != 0){
+    solution.forEach(element => {
         console.log(element);
     });
+    }
+    else{
+        console.log("Empty");
+    }
 }
 
 solution(['add', 
