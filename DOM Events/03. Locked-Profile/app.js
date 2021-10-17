@@ -1,11 +1,12 @@
 function lockedProfile() {
     const profiles = document.querySelectorAll(".profile");
+
+    //Test failed with this code, but actually its working
     // profiles.forEach(el => {
     //     el.querySelector("button").addEventListener('click', onClick);
     // })
 
     for(let i = 0; i < profiles.length; i++){
-        // const isLocked = profiles[i].parentElement.querySelector('input[value="lock"]').checked;
         profiles[i].querySelector("button").addEventListener('click', onClick);
     }
 
